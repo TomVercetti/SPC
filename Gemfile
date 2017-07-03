@@ -18,6 +18,8 @@ gem 'coffee-script-source', '1.8.0'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'devise'
+gem 'bcrypt', platforms: :ruby
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
